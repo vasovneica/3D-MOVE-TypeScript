@@ -1,0 +1,34 @@
+.type_changer {
+    margin-top: -36px;
+    padding: 0;
+}
+
+.type_changer_header {
+    letter-spacing: 0.5rem;
+    line-height: 0.1rem;
+}
+
+.type_link {
+    margin: 1rem;
+
+    color: inherit;
+    text-decoration: none;
+}
+
+.type_link:visited {
+    color: inherit
+}
+
+.type_link_active {
+    margin: 1rem;
+
+    text-decoration: none;
+    color: rgb(39, 91, 236);
+}
+
+@media (max-width: 760px) {
+    .type_changer {
+        margin: 15px;
+    }
+
+}

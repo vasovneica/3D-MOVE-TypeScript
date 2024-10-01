@@ -1,0 +1,29 @@
+.loader {
+    display: block;
+    height: 280px;
+    width: 100%;
+    margin-bottom: 30px; 
+    
+    border: 1px solid #4d4d4d;
+    animation: animateLoader 2s linear infinite;
+  }
+  .big_loader{
+    height: 500px;
+  }
+  .loader_square {
+    background: linear-gradient(45deg,#CCCCCC,#4D4D4D, #CCCCCC,#4D4D4D);
+  }
+  .loader_square {
+    background-size: 300% 300%;
+  }
+  @keyframes animateLoader {
+    0% {
+      background-position: top 0% left 50%;
+    }
+  75%{
+    background-position:top 50% left 99% ;
+  }
+    100% {
+      background-position: top 99% left 0%;
+    }
+  }
