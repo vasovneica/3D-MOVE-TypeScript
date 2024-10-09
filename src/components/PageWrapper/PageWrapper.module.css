@@ -1,0 +1,6 @@
+.page_wrapper {
+    min-height: 100vh;
+  
+    background: linear-gradient(180deg, #4d4d4d, #cccccc);
+    text-align: center;
+  }
